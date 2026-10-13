@@ -35,6 +35,13 @@ adb shell am start -n com.wesbos.homehq/.MainActivity
 This service supplies navigation controls; it does not change the default Home
 app or automatically launch the dashboard at boot.
 
+## Planning printing support
+
+The kiosk does not currently implement printing. See the
+[WebView printing guide](../../docs/kiosk-printing.md) for native integration
+requirements, inspecting existing print services, and testing preview, Cancel,
+navigation and physical output separately.
+
 ## Build and install
 
 Use JDK 17, Android build-tools 34.0.0, and platform 34. From `dashboard/`:
