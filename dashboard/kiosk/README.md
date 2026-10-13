@@ -46,3 +46,11 @@ adb install -r kiosk/build/homehq.apk
 
 The kiosk loads the existing hosted dashboard over the frame's Wi-Fi. A USB
 connection is only needed for installation or diagnostics, not normal use.
+
+## Planning updates over Wi-Fi
+
+The kiosk does not currently download or install new APKs. Website changes can
+use **Reload dashboard**; adding native update delivery needs a separate flow.
+See [Updating a kiosk without reconnecting USB](../../docs/kiosk-updates.md) for
+signing continuity, download validation, installer consent, recovery limits and
+an acceptance checklist drawn from one customized Android 8.1 frame.
