@@ -74,6 +74,11 @@ You are probably helping someone with a similar device plugged into a Mac over U
 section, then follow the links for the phase you are in. Do not run anything from a device
 section unless the identity checks match exactly.
 
+For an already-working dashboard, the [kiosk release checklist](docs/kiosk-release-checks.md)
+separates source, hosted and physical checks and records what is still untested. An optional
+[verify-frame-release skill](skills/verify-frame-release/SKILL.md) follows the same workflow;
+neither changes the device or replaces the approval and backup rules below.
+
 ### Rules we learned the hard way
 
 1. **Ask the owner before every write.** Reads are fine. Writing flash, a partition, `/system`,
