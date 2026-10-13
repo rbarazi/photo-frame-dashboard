@@ -68,6 +68,12 @@ built without Gradle, that shows it. Hold two fingers still for 1.5 s to open a 
 launcher, Android settings, and reloading. On frames without system navigation, optional floating
 **Back** and **Dashboard** buttons help; see the [kiosk guide](dashboard/kiosk/README.md).
 
+### Optional daily family content
+
+For a customized dashboard, the [daily family content guide](docs/daily-family-content.md) covers
+short activities, age-appropriate printable artwork and a repeatable review workflow. It includes
+an optional agent skill; it does not add a content reader or scheduled job to the stock dashboard.
+
 ## For agents: start here
 
 You are probably helping someone with a similar device plugged into a Mac over USB. Read this
